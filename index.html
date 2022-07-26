@@ -20,7 +20,37 @@
   var heading = document.firstElementChild.lastElementChild.firstElementChild
   heading.innerHTML = "Batuhan";
   heading.style.color = "red";
-  document.querySelector("input").click(); -->
+  document.querySelector("input").click(); 
+ 
+ 
+ document.getElementsByTagName("li");
+ document.getElementsByTagName("li").style.color = "purple";   //FALSE
+ document.getElementsByTagName("li")[2].style.color = "purple"; //TRUE
+ document.getElementsByTagName("li").length;
+ document.getElementsByClassName("btn");
+ document.getElementsByClassName("btn").style.color = "red"; //FALSE
+ document.getElementsByClassName("btn")[0].style.color = "red"; // TRUE
+ 
+ 
+ document.getElementById("title");
+ document.getElementById("title").innerHTML = "Good Bye";
+
+ document.querySelector("h1")
+ document.querySelector("#title")
+ document.querySelector(".btn")
+
+ document.querySelector("li a")
+ document.querySelector("a")
+
+ document.querySelector("li.item")
+ document.querySelector("#list a")
+ document.querySelector("#list .item")
+ document.querySelectorAll("#list .item")
+ document.querySelectorAll("#list .item")[2].style.color= "blue";
+
+ 
+ 
+ -->
 
 
  <ul id="list">
