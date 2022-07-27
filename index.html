@@ -10,7 +10,7 @@
 </head>
 
 <body>
- <h1 id="title">Hello</h1>
+ <h1 id="title"><strong>Hello</strong></h1>
 <a href="https://www.google.com">Google</a>
  <input type="checkbox">
 
@@ -65,15 +65,55 @@
 
 
 
+ document.querySelector("button").classList
+
+ document.querySelector("button").classList.add("invisible");
+
+ document.querySelector("button").classList.remove("invisible");
+
+ document.querySelector("button").classList.toggle("invisible");
+
+
+
+ İstediğimiz özellikteki class'ı css olarak oluşturduktan sonra javascript ile çağırmak için ;
+
+ document.querySelector("h1").classList.add("huge");
+
+ Dökümanın içindeki h1 'i bul ve huge class'ını ona ekle / uygula...
 
 
 
 
 
 
+ ocument.querySelector("h1").innerHTML;
+ '<strong>Hello</strong>'
+
+ arasındaki fark ..
+
+ document.querySelector("h1").textContent;
+ 'Hello'
 
 
- 
+
+
+ Javascript yazarken css kodu belirtilebilir
+ document.querySelector("h1").innerHTML = "<em>Good Bye</em>";
+
+
+
+ document.querySelector("a").attributes;
+ özellikleri verir
+
+
+
+ document.querySelector("a").getAttribute("href");
+ belirtilen özelliğin içeriğini verir
+
+ document.querySelector("a").setAttribute("href", "https://www.bing.com");
+
+ set komutu href'İn değişmesini sağlayan komuttur.
+
  -->
 
 
